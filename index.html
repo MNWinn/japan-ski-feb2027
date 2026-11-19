@@ -8,14 +8,29 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-mtn" viewBox="0 0 24 24"><path d="M3 20 10 8l3.5 6L16 10l5 10z"/><path d="m8.2 11 1.8 1.5 1.6-1.3"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 3 3 5-6"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M4 7h16M4 7l-2.5 6a2.5 2.5 0 0 0 5 0zM20 7l-2.5 6a2.5 2.5 0 0 0 5 0z"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-5-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+  </svg>
+
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="hero">
     <div class="wrap">
-      <p class="eyebrow"><span aria-hidden="true">⛷️</span> Japan ski trip · January or February 2027</p>
+      <p class="eyebrow"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mtn"/></svg> Japan ski trip · January or February 2027</p>
       <h1>Points vs cash</h1>
-      <p class="sub">Washington Dulles (IAD) <span aria-hidden="true">✈️</span><span class="sr-only">to</span> Tokyo Haneda (HND), 1 adult, USD</p>
+      <p class="sub">Washington Dulles (IAD) <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg><span class="sr-only">to</span> Tokyo Haneda (HND), 1 adult, USD</p>
       <p class="caveat" role="note"><strong>As of Nov 19, 2026.</strong> Prices and award space change. Nothing is booked.</p>
+      <p class="ends-first"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg> <span><strong>Ends first:</strong> Capital One → Virgin, Nov&nbsp;20</span></p>
     </div>
   </header>
 
@@ -28,154 +43,44 @@
 
     <!-- ================= JANUARY ================= -->
     <section id="panel-jan" class="panel" aria-labelledby="month-jan">
-      <h2 id="month-jan" class="month"><span aria-hidden="true">🗓️</span> January 2027</h2>
+      <h2 id="month-jan" class="month">January 2027</h2>
 
       <section aria-labelledby="bl-h-jan" class="bottom-line">
         <h3 id="bl-h-jan" class="bl-title">Bottom line <span class="bl-sub">round trip, 1 traveler</span></h3>
+        <p class="bl-verdict"><span class="bl-win">Points win</span> <span class="bl-value">~4.2¢ per Chase point</span> <span class="bl-range">range ~3.9–4.5¢</span></p>
         <div class="bl-grid">
           <div class="bl-box bl-points">
-            <p class="bl-label"><span aria-hidden="true">💳</span> Points</p>
+            <p class="bl-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-card"/></svg> Points</p>
             <p class="bl-big">47k Chase points</p>
             <p class="bl-small">+ ~$300–600 fees</p>
+            <p class="bl-air">65k Virgin points</p>
           </div>
           <div class="bl-box bl-cash">
-            <p class="bl-label"><span aria-hidden="true">💵</span> Cash</p>
+            <p class="bl-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cash"/></svg> Cash</p>
             <p class="bl-big">$2,403</p>
             <p class="bl-small">cash, round trip</p>
           </div>
         </div>
-        <p class="bl-worth">Points worth ~3¢ each</p>
       </section>
 
       <section aria-labelledby="rec-h-jan" class="card rec">
-        <h3 id="rec-h-jan"><span aria-hidden="true">✅</span> Recommendation</h3>
+        <h3 id="rec-h-jan"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> Recommendation</h3>
         <div class="legs">
           <div class="leg">
             <p class="leg-tag">Out · Sat Jan 16</p>
             <p class="leg-main">ANA economy nonstop</p>
-            <p class="leg-via">via Virgin Atlantic (Chase points)</p>
+            <p class="leg-via">Chase points via Virgin Atlantic</p>
           </div>
           <div class="leg">
             <p class="leg-tag">Back · Fri Jan 22</p>
             <p class="leg-main">ANA economy nonstop</p>
-            <p class="leg-via">via Virgin Atlantic (Chase points)</p>
+            <p class="leg-via">Chase points via Virgin Atlantic</p>
           </div>
         </div>
       </section>
 
-      <section aria-labelledby="opt-h-jan">
-        <h3 id="opt-h-jan"><span aria-hidden="true">✈️</span> Options</h3>
-        <p class="lead">One-way, per person, local airport times.</p>
-        <div class="table-scroll" role="region" aria-labelledby="opt-h-jan" tabindex="0">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Option</th>
-                <th scope="col">Flight</th>
-                <th scope="col">Cash</th>
-                <th scope="col">Points + fees</th>
-                <th scope="col">Cents/pt</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="pick">
-                <th scope="row"><span class="badge badge-pick">Recommended</span> Out, ANA economy via Virgin</th>
-                <td>NH101 Sat Jan 16, IAD 11:10 AM → HND 3:40 PM next day, nonstop, 1 seat</td>
-                <td class="num">$1,278</td>
-                <td>32.5k Virgin (~24k Chase) + ~$150-300 (estimate)</td>
-                <td class="num">~3.0-3.5 (vs ANA fare)</td>
-              </tr>
-              <tr class="pick">
-                <th scope="row"><span class="badge badge-pick">Recommended</span> Back, ANA economy via Virgin</th>
-                <td>NH102 Fri Jan 22, HND 10:40 AM → IAD 9:10 AM, nonstop, 2 seats</td>
-                <td class="num">$2,267</td>
-                <td>32.5k Virgin (~24k Chase) + ~$150-300 (estimate)</td>
-                <td class="num">~6.0-6.5</td>
-              </tr>
-              <tr>
-                <th scope="row">Back, United economy via LifeMiles</th>
-                <td>UA804 Fri Jan 22 / Mon Jan 25 / Fri Jan 29, HND 4:50 PM → IAD 3:40 PM, nonstop, 9 seats</td>
-                <td class="num">$2,267-2,355</td>
-                <td>55k Capital One + $79</td>
-                <td class="num">~3.9-4.2</td>
-              </tr>
-              <tr class="weak">
-                <th scope="row"><span class="badge badge-weak">Weak</span> Out, United economy</th>
-                <td>UA803 Sat Jan 16 or Sat Jan 23, IAD 12:20 PM → HND, nonstop, 9 seats</td>
-                <td class="num">$903</td>
-                <td>55k United/Chase + $6</td>
-                <td class="num">~1.6 (pay cash instead)</td>
-              </tr>
-              <tr>
-                <th scope="row">Out, Lufthansa business via Aeroplan</th>
-                <td>LH419/LH716 Tue Jan 19, IAD 6:00 PM → HND 10:45 AM (2 days later) via Frankfurt, 7 seats</td>
-                <td class="num wrap-ok">$3,525 (1-stop) / $5,038 (nonstop)</td>
-                <td>102.5k Chase or Capital One + $143</td>
-                <td class="num">~3.2-4.8</td>
-              </tr>
-              <tr class="bench">
-                <th scope="row">Cash benchmark</th>
-                <td>Same nonstops, round trip Jan 16-22</td>
-                <td class="num">$2,403 economy / $13,399 business</td>
-                <td>-</td>
-                <td class="num">-</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section aria-labelledby="bonus-h-jan">
-        <h3 id="bonus-h-jan"><span aria-hidden="true">💳</span> Transfer bonuses</h3>
-        <p class="lead">Checked Nov 19, 2026. <span class="badge badge-soon">Ends soon</span> marks the earliest deadlines.</p>
-        <div class="table-scroll" role="region" aria-labelledby="bonus-h-jan" tabindex="0">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">From → To</th>
-                <th scope="col">Bonus</th>
-                <th scope="col">Ends</th>
-                <th scope="col">Japan use</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Chase → Virgin Atlantic</th>
-                <td class="num">40%</td>
-                <td>Dec 30</td>
-                <td>ANA nonstop IAD-HND (best)</td>
-              </tr>
-              <tr class="soon">
-                <th scope="row">Chase → British Airways / Iberia Avios</th>
-                <td class="num">30%</td>
-                <td><span class="badge badge-soon">Ends soon</span> Dec 1</td>
-                <td>JAL by distance (weak for Japan)</td>
-              </tr>
-              <tr class="soonest">
-                <th scope="row">Capital One → Virgin Atlantic</th>
-                <td class="num">30%</td>
-                <td><span class="badge badge-urgent">Ends first</span> Nov 20</td>
-                <td>ANA</td>
-              </tr>
-              <tr class="soon">
-                <th scope="row">Capital One → Flying Blue</th>
-                <td class="num">20%</td>
-                <td><span class="badge badge-soon">Ends soon</span> Nov 30</td>
-                <td>KLM / Air France / Delta (higher taxes)</td>
-              </tr>
-              <tr>
-                <th scope="row">Capital One → Qatar Avios</th>
-                <td class="num">15%</td>
-                <td>Dec 14</td>
-                <td>JAL by distance</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
       <section aria-labelledby="vs-h-jan" class="card vs">
-        <h3 id="vs-h-jan"><span aria-hidden="true">⚖️</span> January vs February</h3>
+        <h3 id="vs-h-jan"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-scale"/></svg> January vs February</h3>
         <div class="vs-grid">
           <div class="vs-item vs-jan">
             <p class="vs-tag">January</p>
@@ -183,11 +88,11 @@
           </div>
           <div class="vs-item">
             <p class="vs-tag">February</p>
-            <p>The best plan mixed ANA out with United home (about 23k Chase + 55k Capital One).</p>
+            <p>The best plan mixed ANA out with United home (about 24k Chase + 55k Capital One).</p>
           </div>
           <div class="vs-item">
             <p class="vs-tag">Business</p>
-            <p>January's option is Lufthansa out via Aeroplan; February's was Delta One home via Flying Blue.</p>
+            <p>January's option is Lufthansa out via Aeroplan; February's was Delta One home via Flying Blue. Business cash, round trip: $13,399 (Jan) / $8,199 (Feb).</p>
           </div>
           <div class="vs-item">
             <p class="vs-tag">Both months</p>
@@ -196,198 +101,331 @@
         </div>
       </section>
 
-      <section aria-labelledby="notes-h-jan">
-        <h3 id="notes-h-jan"><span aria-hidden="true">📝</span> Notes</h3>
-        <ul class="notes">
-          <li>The Jan 16 outbound shows only 1 seat. For 2 travelers, use United nonstops (9 seats) or ANA Mon Jan 25 (2 seats).</li>
-          <li>Virgin books ANA by phone. Confirm live space before transferring; transfers are irreversible.</li>
-          <li>United round trip (UA803 Jan 23 / UA804 Jan 29): the cheapest Google Flights fare, $2,403 (same price as the ANA nonstops on Google Flights), is Basic Economy and can't be upgraded with PlusPoints. Standard Economy is $2,663 (+$260).</li>
-          <li>Niseko: book to Haneda, add Haneda-Sapporo separately.</li>
-          <li>Award space is cached and changes; prices as of Nov 19, 2026.</li>
-        </ul>
-      </section>
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plane"/></svg> <span class="sum-title">Options</span> <span class="sum-line">5 one-way flights, per person</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <p class="lead">One-way, per person, local airport times.</p>
+          <div class="table-scroll opt" role="region" aria-label="January options table" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Option</th>
+                  <th scope="col">Flight</th>
+                  <th scope="col">Cash</th>
+                  <th scope="col">Points + fees</th>
+                  <th scope="col">¢ per point</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="pick">
+                  <th scope="row"><span class="badge badge-pick">Recommended</span> Out, ANA economy via Virgin</th>
+                  <td class="c-flight" data-label="Flight">NH101 Sat Jan 16, IAD 11:10 AM → HND 3:40 PM next day, nonstop, 1 seat</td>
+                  <td class="c-cash num" data-label="Cash">$1,278</td>
+                  <td class="c-pts" data-label="Points + fees">~23.2k Chase + ~$150–300 fees (estimate) <span class="air">32.5k Virgin (~23.2k Chase each)</span></td>
+                  <td class="c-cpp num" data-label="¢ per point">~3.0–3.5 (vs ANA fare)</td>
+                </tr>
+                <tr class="pick">
+                  <th scope="row"><span class="badge badge-pick">Recommended</span> Back, ANA economy via Virgin</th>
+                  <td class="c-flight" data-label="Flight">NH102 Fri Jan 22, HND 10:40 AM → IAD 9:10 AM, nonstop, 2 seats</td>
+                  <td class="c-cash num" data-label="Cash">$2,267</td>
+                  <td class="c-pts" data-label="Points + fees">~23.2k Chase + ~$150–300 fees (estimate) <span class="air">32.5k Virgin (~23.2k Chase each)</span></td>
+                  <td class="c-cpp num" data-label="¢ per point">~6.0–6.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">Back, United economy via LifeMiles</th>
+                  <td class="c-flight" data-label="Flight">UA804 Fri Jan 22 / Mon Jan 25 / Fri Jan 29, HND 4:50 PM → IAD 3:40 PM, nonstop, 9 seats</td>
+                  <td class="c-cash num" data-label="Cash">$2,267–2,355</td>
+                  <td class="c-pts" data-label="Points + fees">55k Capital One + $79 fees</td>
+                  <td class="c-cpp num" data-label="¢ per point">~3.9–4.2</td>
+                </tr>
+                <tr class="weak">
+                  <th scope="row"><span class="badge badge-weak">Weak</span> Out, United economy</th>
+                  <td class="c-flight" data-label="Flight">UA803 Sat Jan 16 or Sat Jan 23, IAD 12:20 PM → HND, nonstop, 9 seats</td>
+                  <td class="c-cash num" data-label="Cash">$903</td>
+                  <td class="c-pts" data-label="Points + fees">55k United/Chase + $6 fees</td>
+                  <td class="c-cpp num" data-label="¢ per point">~1.6 (pay cash instead)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Out, Lufthansa business via Aeroplan</th>
+                  <td class="c-flight" data-label="Flight">LH419/LH716 Tue Jan 19, IAD 6:00 PM → HND 10:45 AM (2 days later) via Frankfurt, 7 seats</td>
+                  <td class="c-cash num" data-label="Cash">$3,525 (1-stop) / $5,038 (nonstop)</td>
+                  <td class="c-pts" data-label="Points + fees">102.5k Chase or Capital One + $143 fees</td>
+                  <td class="c-cpp num" data-label="¢ per point">~3.2–4.8</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
 
-      <section aria-labelledby="links-h-jan">
-        <h3 id="links-h-jan"><span aria-hidden="true">🔎</span> Check live fares</h3>
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-card"/></svg> <span class="sum-title">Transfer bonuses</span> <span class="sum-line">first ends Nov 20</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <p class="lead">As of Nov 19, 2026. <span class="badge badge-soon">Ends soon</span> marks the earliest deadlines.</p>
+          <div class="table-scroll bonus" role="region" aria-label="January transfer bonuses table" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">From → To</th>
+                  <th scope="col">Bonus</th>
+                  <th scope="col">Ends</th>
+                  <th scope="col">Japan use</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Chase → Virgin Atlantic</th>
+                  <td class="num" data-label="Bonus">40%</td>
+                  <td data-label="Ends">Dec 30</td>
+                  <td data-label="Japan use">ANA nonstop IAD-HND (best)</td>
+                </tr>
+                <tr class="soon">
+                  <th scope="row">Chase → British Airways / Iberia Avios</th>
+                  <td class="num" data-label="Bonus">30%</td>
+                  <td data-label="Ends"><span><span class="badge badge-soon">Ends soon</span> Dec 1</span></td>
+                  <td data-label="Japan use">JAL by distance (weak for Japan)</td>
+                </tr>
+                <tr class="soonest">
+                  <th scope="row">Capital One → Virgin Atlantic</th>
+                  <td class="num" data-label="Bonus">30%</td>
+                  <td data-label="Ends"><span><span class="badge badge-urgent">Ends first</span> Nov 20</span></td>
+                  <td data-label="Japan use">ANA</td>
+                </tr>
+                <tr class="soon">
+                  <th scope="row">Capital One → Flying Blue</th>
+                  <td class="num" data-label="Bonus">20%</td>
+                  <td data-label="Ends"><span><span class="badge badge-soon">Ends soon</span> Nov 30</span></td>
+                  <td data-label="Japan use">KLM / Air France / Delta (higher taxes)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Capital One → Qatar Avios</th>
+                  <td class="num" data-label="Bonus">15%</td>
+                  <td data-label="Ends">Dec 14</td>
+                  <td data-label="Japan use">JAL by distance</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg> <span class="sum-title">Notes</span> <span class="sum-line">seats, transfers, booking, upgrades</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <ul class="notes">
+            <li>The Jan 16 outbound shows only 1 seat. For 2 travelers, use United nonstops (9 seats) or ANA Mon Jan 25 (2 seats).</li>
+            <li>Chase transfers in 1,000-point blocks, so the round trip is one 47k transfer.</li>
+            <li>Virgin books ANA by phone. Confirm live space before transferring; transfers are irreversible.</li>
+            <li>United round trip (UA803 Jan 23 / UA804 Jan 29): the cheapest Google Flights fare, $2,403 (same price as the ANA nonstops on Google Flights), is Basic Economy and can't be upgraded with PlusPoints. Standard Economy is $2,663 (+$260).</li>
+            <li>Niseko: book to Haneda, add Haneda-Sapporo separately.</li>
+            <li>Award space is cached and changes; prices as of Nov 19, 2026.</li>
+          </ul>
+        </div>
+      </details>
+
+      <section aria-labelledby="links-h-jan" class="links">
+        <h3 id="links-h-jan"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg> Check live fares</h3>
         <div class="buttons buttons-3">
           <a class="btn" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE2agcIARIDSUFEcgcIARIDSE5EGh4SCjIwMjctMDEtMjJqBwgBEgNITkRyBwgBEgNJQURAAUgBcAGCAQsI____________AZgBAQ&amp;curr=USD&amp;hl=en" target="_blank" rel="noopener noreferrer">
-            Google Flights: Jan 16-22 economy round trip<span class="sr-only"> (opens in new tab)</span>
+            Google Flights: Jan 16–22 economy round trip<span class="sr-only"> (opens in new tab)</span>
           </a>
           <a class="btn btn-alt" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTE5agcIARIDSUFEcgcIARIDSE5EQAFIA3ABggELCP___________wGYAQI&amp;curr=USD&amp;hl=en" target="_blank" rel="noopener noreferrer">
             Google Flights: Jan 19 business one-way<span class="sr-only"> (opens in new tab)</span>
           </a>
           <a class="btn btn-alt" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTIzagcIARIDSUFEcgcIARIDSE5EGh4SCjIwMjctMDEtMjlqBwgBEgNITkRyBwgBEgNJQURAAUgBcAGCAQsI____________AZgBAQ&amp;curr=USD&amp;hl=en" target="_blank" rel="noopener noreferrer">
-            Google Flights: Jan 23-29 economy round trip (United)<span class="sr-only"> (opens in new tab)</span>
+            Google Flights: Jan 23–29 economy round trip (United)<span class="sr-only"> (opens in new tab)</span>
           </a>
         </div>
-        <p class="source">Sources: seats.aero award cache (updated Nov 17-19, 2026) and Google Flights cash fares read Nov 19, 2026 (1 adult, USD). Nothing booked or transferred.</p>
+        <p class="source">Sources: seats.aero award cache (updated Nov 17–19, 2026) and Google Flights cash fares read Nov 19, 2026 (1 adult, USD). Nothing booked or transferred.</p>
       </section>
     </section>
 
     <!-- ================= FEBRUARY ================= -->
     <section id="panel-feb" class="panel" aria-labelledby="month-feb">
-      <h2 id="month-feb" class="month"><span aria-hidden="true">🗓️</span> February 2027</h2>
+      <h2 id="month-feb" class="month">February 2027</h2>
 
       <section aria-labelledby="bl-h-feb" class="bottom-line">
         <h3 id="bl-h-feb" class="bl-title">Bottom line <span class="bl-sub">round trip, 1 traveler</span></h3>
+        <p class="bl-verdict"><span class="bl-win">Points win</span> <span class="bl-value">~1.8–2¢ per point</span> <span class="bl-range">Chase + Capital One</span></p>
         <div class="bl-grid">
           <div class="bl-box bl-points">
-            <p class="bl-label"><span aria-hidden="true">💳</span> Points</p>
-            <p class="bl-big">23k Chase + 55k Capital One</p>
+            <p class="bl-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-card"/></svg> Points</p>
+            <p class="bl-big">24k Chase + 55k Capital One</p>
             <p class="bl-small">+ ~$230–380 fees</p>
+            <p class="bl-air">32.5k Virgin + LifeMiles</p>
           </div>
           <div class="bl-box bl-cash">
-            <p class="bl-label"><span aria-hidden="true">💵</span> Cash</p>
+            <p class="bl-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cash"/></svg> Cash</p>
             <p class="bl-big">$1,753</p>
             <p class="bl-small">cash, round trip</p>
           </div>
         </div>
-        <p class="bl-worth">Points worth ~1.8–2¢ each</p>
       </section>
 
-      <section aria-labelledby="rec-h" class="card rec">
-        <h3 id="rec-h"><span aria-hidden="true">✅</span> Recommendation</h3>
+      <section aria-labelledby="rec-h-feb" class="card rec">
+        <h3 id="rec-h-feb"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg> Recommendation</h3>
         <div class="legs">
           <div class="leg">
             <p class="leg-tag">Out · Sat Feb 6</p>
             <p class="leg-main">ANA economy nonstop</p>
-            <p class="leg-via">via Virgin Atlantic (Chase points)</p>
+            <p class="leg-via">Chase points via Virgin Atlantic</p>
           </div>
           <div class="leg">
             <p class="leg-tag">Back · Sat Feb 13</p>
             <p class="leg-main">United economy nonstop</p>
-            <p class="leg-via">via Avianca LifeMiles (Capital One miles)</p>
+            <p class="leg-via">Capital One miles via Avianca LifeMiles</p>
           </div>
         </div>
       </section>
 
-      <section aria-labelledby="opt-h">
-        <h3 id="opt-h"><span aria-hidden="true">✈️</span> Options</h3>
-        <p class="lead">One-way, per person, local airport times.</p>
-        <div class="table-scroll" role="region" aria-labelledby="opt-h" tabindex="0">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Option</th>
-                <th scope="col">Flight</th>
-                <th scope="col">Cash</th>
-                <th scope="col">Points + fees</th>
-                <th scope="col">Cents/pt</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="pick">
-                <th scope="row"><span class="badge badge-pick">Recommended</span> Out, ANA economy via Virgin</th>
-                <td>NH101 Sat Feb 6, IAD 11:10 AM → HND 3:40 PM next day, nonstop, 2 seats</td>
-                <td class="num">$903</td>
-                <td>32.5k Virgin (~23k Chase) + ~$150-300 (estimate)</td>
-                <td class="num">~2.6-3.2</td>
-              </tr>
-              <tr class="pick">
-                <th scope="row"><span class="badge badge-pick">Recommended</span> Back, United economy via LifeMiles</th>
-                <td>UA804 Sat Feb 13, HND 4:50 PM → IAD 3:40 PM, nonstop, 9 seats</td>
-                <td class="num">$2,358</td>
-                <td>55k Capital One + $79</td>
-                <td class="num">~4.1</td>
-              </tr>
-              <tr>
-                <th scope="row">Back, Delta One via Flying Blue</th>
-                <td>DL274/DL4704 Thu Feb 18, HND 5:35 PM → IAD 11:15 PM via DTW, 7 seats</td>
-                <td class="num">$4,257 (business)</td>
-                <td>142.5k (~119k Capital One with 20% bonus) + $91</td>
-                <td class="num">~3.5</td>
-              </tr>
-              <tr class="weak">
-                <th scope="row"><span class="badge badge-weak">Weak</span> Out, United economy</th>
-                <td>UA803 Sat Feb 6, IAD 12:20 PM → HND, nonstop, 9 seats</td>
-                <td class="num">$903</td>
-                <td>55k United/Chase + $6</td>
-                <td class="num">~1.6 (weak)</td>
-              </tr>
-              <tr class="bench">
-                <th scope="row">Cash benchmark</th>
-                <td>Same nonstops, round trip Feb 6-13</td>
-                <td class="num">$1,753 economy / $8,199 business</td>
-                <td>-</td>
-                <td class="num">-</td>
-              </tr>
-            </tbody>
-          </table>
+      <section aria-labelledby="vs-h-feb" class="card vs">
+        <h3 id="vs-h-feb"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-scale"/></svg> January vs February</h3>
+        <div class="vs-grid">
+          <div class="vs-item">
+            <p class="vs-tag">January</p>
+            <p>ANA works both ways within one week. Cash is higher ($2,403 vs $1,753 round trip), so points go further.</p>
+          </div>
+          <div class="vs-item vs-jan">
+            <p class="vs-tag">February</p>
+            <p>The best plan mixed ANA out with United home (about 24k Chase + 55k Capital One).</p>
+          </div>
+          <div class="vs-item">
+            <p class="vs-tag">Business</p>
+            <p>January's option is Lufthansa out via Aeroplan; February's was Delta One home via Flying Blue. Business cash, round trip: $13,399 (Jan) / $8,199 (Feb).</p>
+          </div>
+          <div class="vs-item">
+            <p class="vs-tag">Both months</p>
+            <p>Neither month has ANA or United business saver seats.</p>
+          </div>
         </div>
       </section>
 
-      <section aria-labelledby="bonus-h">
-        <h3 id="bonus-h"><span aria-hidden="true">💳</span> Transfer bonuses</h3>
-        <p class="lead">Live Nov 18, 2026. <span class="badge badge-soon">Ends soon</span> marks the earliest deadlines.</p>
-        <div class="table-scroll" role="region" aria-labelledby="bonus-h" tabindex="0">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">From → To</th>
-                <th scope="col">Bonus</th>
-                <th scope="col">Ends</th>
-                <th scope="col">Japan use</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Chase → Virgin Atlantic</th>
-                <td class="num">40%</td>
-                <td>Dec 30</td>
-                <td>ANA nonstop IAD-HND (best)</td>
-              </tr>
-              <tr class="soon">
-                <th scope="row">Chase → British Airways / Iberia Avios</th>
-                <td class="num">30%</td>
-                <td><span class="badge badge-soon">Ends soon</span> Dec 1</td>
-                <td>JAL by distance (weak for Japan)</td>
-              </tr>
-              <tr class="soonest">
-                <th scope="row">Capital One → Virgin Atlantic</th>
-                <td class="num">30%</td>
-                <td><span class="badge badge-urgent">Ends first</span> Nov 20</td>
-                <td>ANA</td>
-              </tr>
-              <tr class="soon">
-                <th scope="row">Capital One → Flying Blue</th>
-                <td class="num">20%</td>
-                <td><span class="badge badge-soon">Ends soon</span> Nov 30</td>
-                <td>Delta One / KLM / Air France (higher taxes)</td>
-              </tr>
-              <tr>
-                <th scope="row">Capital One → Qatar Avios</th>
-                <td class="num">15%</td>
-                <td>Dec 14</td>
-                <td>JAL by distance</td>
-              </tr>
-            </tbody>
-          </table>
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plane"/></svg> <span class="sum-title">Options</span> <span class="sum-line">4 one-way flights, per person</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <p class="lead">One-way, per person, local airport times.</p>
+          <div class="table-scroll opt" role="region" aria-label="February options table" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Option</th>
+                  <th scope="col">Flight</th>
+                  <th scope="col">Cash</th>
+                  <th scope="col">Points + fees</th>
+                  <th scope="col">¢ per point</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="pick">
+                  <th scope="row"><span class="badge badge-pick">Recommended</span> Out, ANA economy via Virgin</th>
+                  <td class="c-flight" data-label="Flight">NH101 Sat Feb 6, IAD 11:10 AM → HND 3:40 PM next day, nonstop, 2 seats</td>
+                  <td class="c-cash num" data-label="Cash">$903</td>
+                  <td class="c-pts" data-label="Points + fees">~24k Chase + ~$150–300 fees (estimate) <span class="air">32.5k Virgin (~24k Chase)</span></td>
+                  <td class="c-cpp num" data-label="¢ per point">~2.6–3.2</td>
+                </tr>
+                <tr class="pick">
+                  <th scope="row"><span class="badge badge-pick">Recommended</span> Back, United economy via LifeMiles</th>
+                  <td class="c-flight" data-label="Flight">UA804 Sat Feb 13, HND 4:50 PM → IAD 3:40 PM, nonstop, 9 seats</td>
+                  <td class="c-cash num" data-label="Cash">$2,358</td>
+                  <td class="c-pts" data-label="Points + fees">55k Capital One + $79 fees</td>
+                  <td class="c-cpp num" data-label="¢ per point">~4.1</td>
+                </tr>
+                <tr>
+                  <th scope="row">Back, Delta One via Flying Blue</th>
+                  <td class="c-flight" data-label="Flight">DL274/DL4704 Thu Feb 18, HND 5:35 PM → IAD 11:15 PM via DTW, 7 seats</td>
+                  <td class="c-cash num" data-label="Cash">$4,257 (business)</td>
+                  <td class="c-pts" data-label="Points + fees">~119k Capital One + $91 fees <span class="air">142.5k Flying Blue (~119k Capital One with 20% bonus)</span></td>
+                  <td class="c-cpp num" data-label="¢ per point">~3.5</td>
+                </tr>
+                <tr class="weak">
+                  <th scope="row"><span class="badge badge-weak">Weak</span> Out, United economy</th>
+                  <td class="c-flight" data-label="Flight">UA803 Sat Feb 6, IAD 12:20 PM → HND, nonstop, 9 seats</td>
+                  <td class="c-cash num" data-label="Cash">$903</td>
+                  <td class="c-pts" data-label="Points + fees">55k United/Chase + $6 fees</td>
+                  <td class="c-cpp num" data-label="¢ per point">~1.6 (weak)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-      </section>
+      </details>
 
-      <section aria-labelledby="notes-h">
-        <h3 id="notes-h"><span aria-hidden="true">📝</span> Notes</h3>
-        <ul class="notes">
-          <li>No ANA or United business saver seats in February either direction (cached data).</li>
-          <li>Iberia bonus is real but a poor fit: Iberia routes via Madrid; Avios on JAL ~90k Chase in business.</li>
-          <li>Virgin books ANA by phone (<a href="tel:+18003659500">800-365-9500</a>); NH101 shows 1-2 seats per date. Confirm live space before transferring; transfers are irreversible.</li>
-          <li>Niseko: book to Haneda, add Haneda-Sapporo separately (~7.5k Virgin points).</li>
-          <li>PlusPoints: not yet confirmed whether the United fare is Basic Economy.</li>
-          <li>Award space is cached and changes; prices as of Nov 19, 2026.</li>
-        </ul>
-      </section>
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-card"/></svg> <span class="sum-title">Transfer bonuses</span> <span class="sum-line">first ends Nov 20</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <p class="lead">As of Nov 19, 2026. <span class="badge badge-soon">Ends soon</span> marks the earliest deadlines.</p>
+          <div class="table-scroll bonus" role="region" aria-label="February transfer bonuses table" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">From → To</th>
+                  <th scope="col">Bonus</th>
+                  <th scope="col">Ends</th>
+                  <th scope="col">Japan use</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Chase → Virgin Atlantic</th>
+                  <td class="num" data-label="Bonus">40%</td>
+                  <td data-label="Ends">Dec 30</td>
+                  <td data-label="Japan use">ANA nonstop IAD-HND (best)</td>
+                </tr>
+                <tr class="soon">
+                  <th scope="row">Chase → British Airways / Iberia Avios</th>
+                  <td class="num" data-label="Bonus">30%</td>
+                  <td data-label="Ends"><span><span class="badge badge-soon">Ends soon</span> Dec 1</span></td>
+                  <td data-label="Japan use">JAL by distance (weak for Japan)</td>
+                </tr>
+                <tr class="soonest">
+                  <th scope="row">Capital One → Virgin Atlantic</th>
+                  <td class="num" data-label="Bonus">30%</td>
+                  <td data-label="Ends"><span><span class="badge badge-urgent">Ends first</span> Nov 20</span></td>
+                  <td data-label="Japan use">ANA</td>
+                </tr>
+                <tr class="soon">
+                  <th scope="row">Capital One → Flying Blue</th>
+                  <td class="num" data-label="Bonus">20%</td>
+                  <td data-label="Ends"><span><span class="badge badge-soon">Ends soon</span> Nov 30</span></td>
+                  <td data-label="Japan use">Delta One / KLM / Air France (higher taxes)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Capital One → Qatar Avios</th>
+                  <td class="num" data-label="Bonus">15%</td>
+                  <td data-label="Ends">Dec 14</td>
+                  <td data-label="Japan use">JAL by distance</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
 
-      <section aria-labelledby="links-h">
-        <h3 id="links-h"><span aria-hidden="true">🔎</span> Check live fares</h3>
+      <details class="fold">
+        <summary><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-note"/></svg> <span class="sum-title">Notes</span> <span class="sum-line">seats, Iberia, booking, Niseko</span><svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chev"/></svg></summary>
+        <div class="fold-body">
+          <ul class="notes">
+            <li>No ANA or United business saver seats in February either direction (cached data).</li>
+            <li>Iberia bonus is real but a poor fit: Iberia routes via Madrid; Avios on JAL ~90k Chase in business.</li>
+            <li>Virgin books ANA by phone (<a class="tel" href="tel:+18003659500">800-365-9500</a>); NH101 shows 1–2 seats per date. Confirm live space before transferring; transfers are irreversible.</li>
+            <li>Niseko: book to Haneda, add Haneda-Sapporo separately (~7.5k Virgin points).</li>
+            <li>PlusPoints: not yet confirmed whether the United fare is Basic Economy.</li>
+            <li>Award space is cached and changes; prices as of Nov 19, 2026.</li>
+          </ul>
+        </div>
+      </details>
+
+      <section aria-labelledby="links-h-feb" class="links">
+        <h3 id="links-h-feb"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg> Check live fares</h3>
         <div class="buttons">
           <a class="btn" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTA2agcIARIDSUFEcgcIARIDSE5EGh4SCjIwMjctMDItMTNqBwgBEgNITkRyBwgBEgNJQURAAUgBcAGCAQsI____________AZgBAQ&amp;curr=USD&amp;hl=en" target="_blank" rel="noopener noreferrer">
-            Google Flights: Feb 6-13 economy round trip<span class="sr-only"> (opens in new tab)</span>
+            Google Flights: Feb 6–13 economy round trip<span class="sr-only"> (opens in new tab)</span>
           </a>
           <a class="btn btn-alt" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAyLTE4agcIARIDSE5EcgcIARIDSUFEQAFIA3ABggELCP___________wGYAQI&amp;curr=USD&amp;hl=en" target="_blank" rel="noopener noreferrer">
             Google Flights: Delta One home Feb 18<span class="sr-only"> (opens in new tab)</span>
           </a>
         </div>
-        <p class="source">Source data: seats.aero award cache (updated Nov 16-18, 2026) and Google Flights cash fares read Nov 19, 2026 (1 adult, USD). Nothing booked or transferred.</p>
+        <p class="source">Source data: seats.aero award cache (updated Nov 16–18, 2026) and Google Flights cash fares read Nov 19, 2026 (1 adult, USD). Nothing booked or transferred.</p>
       </section>
     </section>
   </main>
